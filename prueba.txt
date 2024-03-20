@@ -1,1 +1,1 @@
-Óscar,Sergio,Jazmin,Dana,Beatriz
+"Sara", "Óscar", "Jazmin", "Ruben L", "Diego", "Ruben N", "Ruth", "Catarina", "María", "Wenddy", "Héctor", "Gabriel", "Dana", "David", "Beartiz", "Sergio"

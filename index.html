@@ -8,12 +8,21 @@
 </head>
 <body>
     <h1>prueba</h1>
+    <ul></ul>
+
     <script>
+
+        const lista = document.querySelectorAll("ul")
+        
 
         fetch("prueba.txt")
         .then(respuesta => respuesta.text())
         .then(contenido => {
-            console.log(contenido)
+            contenido.split(",").sort().forEach( nombre => {
+            let item = document.createElement("li");
+            item.innerText = nombre;
+            lista.appendChild(item);
+        })
         })
 
 
