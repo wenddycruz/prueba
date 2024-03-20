@@ -11,8 +11,8 @@
     <script>
 
         fetch("prueba.txt")
-        .then(respuesta => respuesta.txt())
-        .then(contenido =>{
+        .then(respuesta => respuesta.text())
+        .then(contenido => {
             console.log(contenido)
         })
 
